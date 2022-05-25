@@ -58,7 +58,8 @@ def _preprocess_data(data):
     # ---------------------------------------------------------------
 
     # ----------- Replace this code with your own preprocessing steps --------
-    predict_vector = feature_vector_df[['Bilbao_weather_id', 'Valencia_humidity','Valencia_wind_deg', 'Seville_pressure', 'Barcelona_wind_speed']]
+    predict_vector = feature_vector_df[['Bilbao_weather_id', 'Madrid_temp', 'Valencia_humidity',
+       'Valencia_wind_deg', 'Barcelona_wind_speed']]
     # ------------------------------------------------------------------------
 
     return predict_vector
